@@ -1,4 +1,5 @@
 ### WORK STILL IN PROGRESS
+*Only the part where changing keyboard light is confirmed to be working on EK75 Pro, no confirmation whether it works on every DareU products*
 # ReverseDareu (`dareu-control`)
 
 Native Linux peripheral daemon, desktop control center, and Arch/Omarchy packaging for DAREU gaming mice and keyboards, built by reverse-engineering the Windows `DAREU_All_in_one_V1.5.6.16.exe` driver suite.
