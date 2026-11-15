@@ -1,0 +1,608 @@
+{
+  "installer": "/home/daniel/ReverseDareu/DAREU_All_in_one_V1.5.6.16.exe",
+  "installer_sha256": "aa0d2091ccbc89a193c11032926c18654aeb7d06d456c5a8ba10ce148bbaa6ae",
+  "inno_version": "6.1.0 (unicode)",
+  "extracted_files": [
+    {
+      "path": "app/DareuDriver.exe",
+      "size": 3713528,
+      "sha256": "b6fa9b578ce3a89a85e64dc421b020b2ab4ee7aa28310419d100cbe68c8e96a2"
+    },
+    {
+      "path": "app/appico.ico",
+      "size": 16958,
+      "sha256": "8ef534a2803db542d3ae80f9bd169302f8312fda397f8047c730cba4b11f9609"
+    },
+    {
+      "path": "app/config.ini",
+      "size": 44,
+      "sha256": "2eaee8d30be042247f2d0a241007b3a1272262707e0fe0b9e8b3525b7ac246eb"
+    },
+    {
+      "path": "app/DataSource.dll",
+      "size": 2077688,
+      "sha256": "cfd03211c2a95d0203bf526f5b840ff793288e67cbf59d47bc63b2969eb78a4f"
+    },
+    {
+      "path": "app/DeviceBase.dll",
+      "size": 899576,
+      "sha256": "d6f1f2c4d4b170f4916a904199e9cdfbf271e02804e973c7c902242602d1afe5"
+    },
+    {
+      "path": "app/ToolLib.dll",
+      "size": 37880,
+      "sha256": "e7a85c472304c1a773b20197cf1ada53ed56c2a0eafbeb25ce69f8d85fd25f33"
+    },
+    {
+      "path": "app/UiLib.dll",
+      "size": 948728,
+      "sha256": "8aa978a50f571a466c5b55fce8046cf199e14d5cf2e8304493efcd7b557a2956"
+    },
+    {
+      "path": "app/LangLib.dll",
+      "size": 247288,
+      "sha256": "ff1f2b6aec9906471b82f9bc7c0330b4c4783510aa071c5c2f9dfa46d50f0e34"
+    },
+    {
+      "path": "app/NAudio.dll",
+      "size": 524280,
+      "sha256": "6a861bff54cebe7e250305be0c81a080568c9a49c21defb6d0b82b5f6cf84a24"
+    },
+    {
+      "path": "app/TgFunction.dll",
+      "size": 2021368,
+      "sha256": "18f32e6c57fb1c389b0b7445b0c10b152a6e0502890c9f6b38b65a350f712578"
+    },
+    {
+      "path": "app/HidControl.dll",
+      "size": 36856,
+      "sha256": "9cd9abe1f1a2a8fdbaf85166281a2046f749a3c54cd05f81e0f0a5ef25c1dd83"
+    },
+    {
+      "path": "app/LedController.dll",
+      "size": 35832,
+      "sha256": "83c04fb7738c916ee25209c002b20c7d65e79d80bf705e36e3fe08d2388873e0"
+    },
+    {
+      "path": "app/TgService.exe",
+      "size": 3598584,
+      "sha256": "c12df77e51998739c17b1fa0ee27b1c4cd8e77264ba31c7f9529ea247725a6ee"
+    },
+    {
+      "path": "app/FileAccess.exe",
+      "size": 17656,
+      "sha256": "711125cc4b177f8b4c94f4ef723f963e94fa5d2e16b2ad15de5543a5b75a6320"
+    },
+    {
+      "path": "app/Data/Texts/0.tgtext",
+      "size": 45,
+      "sha256": "45e0efe5c7c6aaef76f62907156070feb94da31a8149aa9d1aca552aacd45d64"
+    },
+    {
+      "path": "app/Data/Texts/1.tgtext",
+      "size": 53,
+      "sha256": "3f6c21d4714f18359b2e0d9d0e4527d47c527a1322c571ca26658d4a467b99d9"
+    },
+    {
+      "path": "app/Firmware/DAREU_Device_FirmwareUpdater.exe",
+      "size": 3648504,
+      "sha256": "00b213935c4948db6aa120a38b350cbc826ebfe361a665dbeddebe3d91fe93c4"
+    },
+    {
+      "path": "app/Firmware/DAREU_Device_FirmwareUpdater_HS.exe",
+      "size": 11723000,
+      "sha256": "45dc4fd0e9b56717c2e4578598bbb1d66acf051801a72bcdbf4be4b4da2b5f4a"
+    },
+    {
+      "path": "app/Firmware/DAREU_Device_FirmwareUpdater_Hy.exe",
+      "size": 355320,
+      "sha256": "013f199d0d4d391023f9a27fe8c89f9e88ce1453d9ad7c0ca4bad704a43ad1c1"
+    },
+    {
+      "path": "app/Firmware/DAREU_Device_FirmwareUpdater_Jm.exe",
+      "size": 685816,
+      "sha256": "99d875e72115aaa7a473cf653b8b16d49497fa4818355fecd07778ee3c51c3ce"
+    },
+    {
+      "path": "app/Firmware/DAREU_Device_FirmwareUpdater_OHID.exe",
+      "size": 344568,
+      "sha256": "acac9c2af603ab54c013187703732c90515394517197b257239caf004fdb156f"
+    },
+    {
+      "path": "app/Firmware/HIDUsb.dll",
+      "size": 131832,
+      "sha256": "6cd1fb1eccd4d091e8e93ca9bd1f466dcc6d80b285dcc19a49704e9cc6cffff5"
+    },
+    {
+      "path": "app/Firmware/vcruntime140_1.dll",
+      "size": 49488,
+      "sha256": "e0b66601cc28ecb171c3d4b7ac690c667f47da6b6183bff80604c84c00d265ab"
+    },
+    {
+      "path": "app/Firmware/Files/2.4G_Receiver.dat",
+      "size": 36280,
+      "sha256": "666eb7f7d563f9c9f08417a478234f5fac93bc2ad01f03da6a99a230f757b5b3"
+    },
+    {
+      "path": "app/Firmware/Files/A104_PRO.dat",
+      "size": 620539,
+      "sha256": "1e2f18b8db26e744c7b55ccb1d61daf579c83544493bea16a085fd08410be667"
+    },
+    {
+      "path": "app/Firmware/Files/A75.dat",
+      "size": 156175,
+      "sha256": "4fb536510b9b9b61309a62d73a9a4138ba116eee2ec014931b9772dd423552d7"
+    },
+    {
+      "path": "app/Firmware/Files/A75_HE.dat",
+      "size": 187127,
+      "sha256": "77824107f013afda4a075c225537bf9fb80f3e718c3d0319946153efc6be70d4"
+    },
+    {
+      "path": "app/Firmware/Files/A75_HE_V2.dat",
+      "size": 188154,
+      "sha256": "b73ce0cf38b56cf49975313ea1ee78a4cfe1007eb8e60222a5d6bdfcacee25e4"
+    },
+    {
+      "path": "app/Firmware/Files/A81.dat",
+      "size": 256804,
+      "sha256": "67bbec46067a92c32149ef9fd754440bee2ac57be51d21696b1e68760165b262"
+    },
+    {
+      "path": "app/Firmware/Files/A87_PRO.dat",
+      "size": 334709,
+      "sha256": "5c916e0fbade31aceddc01f84214b2aa2e0498a1358e21656babc2d331dbee86"
+    },
+    {
+      "path": "app/Firmware/Files/A900.dat",
+      "size": 156499,
+      "sha256": "cb23902bb797d349233fcbe21c740a15ed19c2423f52c86f09877701c3f00fc4"
+    },
+    {
+      "path": "app/Firmware/Files/A950G.dat",
+      "size": 206809,
+      "sha256": "beb656786a708959de476e285fdb0b2fe252375ab1b9fdaca56837720d2f40c4"
+    },
+    {
+      "path": "app/Firmware/Files/A950_AIR.dat",
+      "size": 332367,
+      "sha256": "2c72dc399a178415ffc54d060406470158bf70c7924d53739d3ef8808d1d6313"
+    },
+    {
+      "path": "app/Firmware/Files/A950_AIR_KR.dat",
+      "size": 332370,
+      "sha256": "646ad5b016c74bdf6be4162749800d3214674f74880f85c175573588d1103185"
+    },
+    {
+      "path": "app/Firmware/Files/A950_PRO.dat",
+      "size": 140371,
+      "sha256": "921ab59e74387f8316f879f709af51017a6d5302453c1f85248444ab1054ece2"
+    },
+    {
+      "path": "app/Firmware/Files/A950_PRO_Mg.dat",
+      "size": 164245,
+      "sha256": "89595fcdc81ea32061130b68483ab4afd9ba23f621434861a8825c9bbdafdc42"
+    },
+    {
+      "path": "app/Firmware/Files/A98.dat",
+      "size": 215188,
+      "sha256": "96b016486b0339ff1cb5964ff63d9abe5f4246ee01bef8bf7049cbd4edc52f15"
+    },
+    {
+      "path": "app/Firmware/Files/A980.dat",
+      "size": 356519,
+      "sha256": "39dd7be4cd7232a687f78df1a2a39ccf16c35f45f388bf8ce121d30fad3854ff"
+    },
+    {
+      "path": "app/Firmware/Files/A980_Gaming.dat",
+      "size": 180701,
+      "sha256": "b910ad5167a56064c55c5293440125efa124f4b8feb90507093698210ec60845"
+    },
+    {
+      "path": "app/Firmware/Files/A980_PRO.dat",
+      "size": 300129,
+      "sha256": "79e4996a17635c92bd8ed5b5de815b2322b1e305f3f31b220a75ed0cf3b1ed78"
+    },
+    {
+      "path": "app/Firmware/Files/A980_PRO_MAX.dat",
+      "size": 394341,
+      "sha256": "c5e4e910e71483ec702cde259b74884f10e58d2f728271069e744316b8dda7c4"
+    },
+    {
+      "path": "app/Firmware/Files/A980_PRO_MAX_2.4G_Receiver.dat",
+      "size": 201809,
+      "sha256": "991ca2a4ddd416b3940f3dc2e29005372fc77742f367f529187945889ceea1a8"
+    },
+    {
+      "path": "app/Firmware/Files/A980_PRO_MAX_V2.dat",
+      "size": 394344,
+      "sha256": "ce79c69c968c068ed78ae15fd969d8a31b1dfd1a6b55caceb0cb2d14110048b6"
+    },
+    {
+      "path": "app/Firmware/Files/A980_PRO_MAX_V2_EN.dat",
+      "size": 394347,
+      "sha256": "e98f6c0f09805805724588756da83e9a7cdad88960106665848a5bb5ec8bd9ef"
+    },
+    {
+      "path": "app/Firmware/Files/A980_PRO_V2.dat",
+      "size": 304228,
+      "sha256": "951274a18631dedc4057c5a408374c6286e5f57964b49a4ea308821f5da0d718"
+    },
+    {
+      "path": "app/Firmware/Files/A980_PRO_V3.dat",
+      "size": 312420,
+      "sha256": "9828918f06627cc36a02f20098919240cd28ae384f7f57729092e40c59826a64"
+    },
+    {
+      "path": "app/Firmware/Files/DX75.dat",
+      "size": 189691,
+      "sha256": "65963b3f84e6d6482bf99f8b3e25161ba5916d18ab2de60eba46ffd32aa97265"
+    },
+    {
+      "path": "app/Firmware/Files/EK106_PRO.dat",
+      "size": 517855,
+      "sha256": "9e53ac9d17f1fa35db5899722c05c932825054aa9911d3eeac822ae373b1e871"
+    },
+    {
+      "path": "app/Firmware/Files/EK106_PRO_8K.dat",
+      "size": 541996,
+      "sha256": "5e0eaedcba51adeddd31a179016d4abef5478ff33ca432dcb24b9b0eea37f6ec"
+    },
+    {
+      "path": "app/Firmware/Files/EK106_RT_8K.dat",
+      "size": 456881,
+      "sha256": "ead144d491cba68e60b65ad647940789380f2207ea1ad54c2c1888ec3686e230"
+    },
+    {
+      "path": "app/Firmware/Files/EK75.dat",
+      "size": 195962,
+      "sha256": "ebb10877a026b726000d7f114730a9819d66005f733345f636a87fd309fa10e8"
+    },
+    {
+      "path": "app/Firmware/Files/EK75_8K.dat",
+      "size": 216557,
+      "sha256": "563235a3b47026699090b46d0bdd0129c29005c1ba18cf81f3ca5826e233eb1c"
+    },
+    {
+      "path": "app/Firmware/Files/EK75_8K_RT.dat",
+      "size": 129445,
+      "sha256": "c3294168a5df6f8c88e5150a59f494961549b522d010212bee093b15692a7e77"
+    },
+    {
+      "path": "app/Firmware/Files/EK75_PRO.dat",
+      "size": 185918,
+      "sha256": "642a6a244b129e5d133f544dee45a3cffed597c5f9dbd8d607414dcc6f6831eb"
+    },
+    {
+      "path": "app/Firmware/Files/EK75_RT.dat",
+      "size": 143934,
+      "sha256": "1c1ae84bf5a4426723232bf0fa6ec0b60cf3c83a5da2f2c139932955a26cb5ea"
+    },
+    {
+      "path": "app/Firmware/Files/EK75_RT_8K.dat",
+      "size": 172753,
+      "sha256": "e300afe717e7b99e50e13a598bf1d54cda8cf187d8180daf3a614aed41b06d15"
+    },
+    {
+      "path": "app/Firmware/Files/EK75_RT_V2.dat",
+      "size": 143785,
+      "sha256": "f45c4a29ad02a864dd984b37f4b9a1c6cb7a201ec93327fc0466b31c0c0f9d3e"
+    },
+    {
+      "path": "app/Firmware/Files/EK87_PRO.dat",
+      "size": 194978,
+      "sha256": "b739b094b83ebd1c3ef790e11bfe681a9e63f17396bea3e65108ffea167a8ded"
+    },
+    {
+      "path": "app/Firmware/Files/EK87_PRO_8K.dat",
+      "size": 572837,
+      "sha256": "f9efdc721bed0232b326761828beb751c54cf4853c46fd52f1b200f6c1c77ced"
+    },
+    {
+      "path": "app/Firmware/Files/K68_RT.dat",
+      "size": 1054061,
+      "sha256": "5c4e51300ff1671d8c953801cbef8cfd312aeafba2c82209dd180390c9eea10d"
+    },
+    {
+      "path": "app/Firmware/Files/Z10.dat",
+      "size": 192706,
+      "sha256": "133b8c797a30c0b449315c3ad0cec2deeb600abcb94b22b061143202923c6639"
+    },
+    {
+      "path": "app/Firmware/Files/Z68.dat",
+      "size": 221702,
+      "sha256": "797276a83ebea9e2ccf7a2c18d1c31042c477d40a75668833b351a1ada9c1e8c"
+    },
+    {
+      "path": "app/Firmware/Files/Z68_2.4G_Receiver.dat",
+      "size": 34476,
+      "sha256": "4ec884ea8ec919f8978f662df788faea1325333aabae20b804880b0ff0ad96ab"
+    },
+    {
+      "path": "app/Firmware/Files/Z82.dat",
+      "size": 225832,
+      "sha256": "943f93fdc2bf0769713c2c81022fd92d15eddb2ab930a20f76b12b5d8bf21cc4"
+    },
+    {
+      "path": "app/Firmware/Files/Z82_PRO.dat",
+      "size": 242892,
+      "sha256": "6c04fbc9174b39bdaa2176d468777bd1ebdc2ab70a6143df30cee3047b76cb02"
+    },
+    {
+      "path": "app/Products/TK51A.dll",
+      "size": 932344,
+      "sha256": "4bd3abb3684691852843cf5890798d25b384c4b3993cda8dd08a607f4261a46c"
+    },
+    {
+      "path": "app/Products/TK51ARGB.dll",
+      "size": 934392,
+      "sha256": "4fdbd34424dd10a44d654e45e2dc2fb3da4a9d232f43eacdcab59754226fdbc2"
+    },
+    {
+      "path": "app/Products/TK51CF.dll",
+      "size": 480248,
+      "sha256": "481b3bf066aec8831edfec25b502e159aaaa8f2f7a54eb33d7841970673a1b09"
+    },
+    {
+      "path": "app/Products/TK51CU.dll",
+      "size": 793592,
+      "sha256": "89f23edc0dc34348994afe91f5c37c96cd3db62369eec189114627e08fd45414"
+    },
+    {
+      "path": "app/Products/TK51CU0091.dll",
+      "size": 671736,
+      "sha256": "2da3bc3bdda6d49e3a08e81738adf430b6e9d392deda9cfe5aa0a6a1e4e5f310"
+    },
+    {
+      "path": "app/Products/TK51D.dll",
+      "size": 812024,
+      "sha256": "565c143ce62ba30eb607ea4c3e4b75bd22b1d456c38c4c6bc503bd3c7315f98e"
+    },
+    {
+      "path": "app/Products/TK51G.dll",
+      "size": 691192,
+      "sha256": "b55117cde919d3165164a2efcb82db432aa35f00f326c9cbfa3306bcf8cf84f4"
+    },
+    {
+      "path": "app/Products/TK51GF.dll",
+      "size": 694264,
+      "sha256": "b1258e4f17efd9681c3174c7edf9c86767dac63cda96d06c9331d497c7a48cfa"
+    },
+    {
+      "path": "app/Products/TK51GU.dll",
+      "size": 1163768,
+      "sha256": "206ee317c58771f160df7ffd4a8385c18a11a58562cc00e5fd2a27bb549c579c"
+    },
+    {
+      "path": "app/Products/TK51GU8K.dll",
+      "size": 1068536,
+      "sha256": "31ed677e65e49237dfffda1b5186bdeb49ab4c695f82cffd24627fe516be988d"
+    },
+    {
+      "path": "app/Products/TK51GU8K_HY.dll",
+      "size": 1178104,
+      "sha256": "3703da914302a8d5161593263ef305955915b2f1ed767356fa6cce4b2d448ca8"
+    },
+    {
+      "path": "app/Products/TK51GU_NewHoyer.dll",
+      "size": 1164792,
+      "sha256": "d8492416913214f20f24881b043892201ed7face93aabb5945707f5c8dedc7b8"
+    },
+    {
+      "path": "app/Products/TK51QF.dll",
+      "size": 705528,
+      "sha256": "07f1bb1b269a294ae0e906cd137dd91fdf438d3585256764e2849aaea7e90e78"
+    },
+    {
+      "path": "app/Products/TK51QRT8K.dll",
+      "size": 705528,
+      "sha256": "2192235a02a9e964075f664b7aeaaf23ae32ac1136a8964f66daa27cc86e7093"
+    },
+    {
+      "path": "app/Products/TK51QU.dll",
+      "size": 696312,
+      "sha256": "d5d1fd4d829fae250b236e1874de98052a91ad3b78b49c3c3f64cf5d68c2b9ca"
+    },
+    {
+      "path": "app/Products/TK51QU0090.dll",
+      "size": 701432,
+      "sha256": "62a94230e28dc3bfc05471387d1b47a8429f054ecee635ff6a8f046e7107da9a"
+    },
+    {
+      "path": "app/Products/TK51U.dll",
+      "size": 648696,
+      "sha256": "43ca5b978fa799243f0ed5c6e41d9978773b2fe1b719281905698f85d50e6c21"
+    },
+    {
+      "path": "app/Products/TK51V.dll",
+      "size": 629752,
+      "sha256": "b760a57539f002da5fd296ef07689cec573bb3df7b1fba89c3ed0e2d4a050185"
+    },
+    {
+      "path": "app/Products/TK52H.dll",
+      "size": 285176,
+      "sha256": "071d5a4d41572d4f407df627076e541cea529d6aa551f2099ad917f378713277"
+    },
+    {
+      "path": "app/Products/TK52J.dll",
+      "size": 187896,
+      "sha256": "53a047ab3ff073da0be0c2abcd9b1a210b5da48f8c5151db9fe157c614afc0bb"
+    },
+    {
+      "path": "app/Products/TK52L.dll",
+      "size": 145912,
+      "sha256": "4314fa838db6ddd5d2d1a3fe6631eff3c4ecaf7d9bc2b245ad6e8c47455e7ee9"
+    },
+    {
+      "path": "app/Products/TK52LV2.dll",
+      "size": 145912,
+      "sha256": "39a5d8e48da7254b9df914590650fca4c330f166ac8b326343474e8cabb8bda8"
+    },
+    {
+      "path": "app/Products/TK597.dll",
+      "size": 252408,
+      "sha256": "87f5814167cf6d3e33ea1c6d935948623e29b8d8b10724155d88ee10b8a4497c"
+    },
+    {
+      "path": "app/Products/TM228.dll",
+      "size": 109048,
+      "sha256": "9e600c7c3437662f0fae1f1598111d929aa7b1b7f1f73eada5ff2bcb4b3589df"
+    },
+    {
+      "path": "app/Products/TM230G.dll",
+      "size": 191992,
+      "sha256": "8c9dfefcc92c94d9b03b585ab5da6084c15b48ff1d069b71fed560c3b523bcb8"
+    },
+    {
+      "path": "app/Products/TM238.dll",
+      "size": 1280504,
+      "sha256": "60f37d91e2ac475de148ee4aa53c1f88a2a40db62cca3ff28d6ae3bde739670e"
+    },
+    {
+      "path": "app/Products/TM238U.dll",
+      "size": 764920,
+      "sha256": "a87a2c438247f224227f9bad586dee3c3af0786c61bc03df329e09c5c470fbbe"
+    },
+    {
+      "path": "app/Products/TM242F.dll",
+      "size": 158712,
+      "sha256": "b1c1ff58b5e58767c36412e86f862081ab0ee90c22e6db3b392616378223e5d4"
+    },
+    {
+      "path": "app/Products/TM243F.dll",
+      "size": 188920,
+      "sha256": "aeeaf835369fff5d586c8acc3f886effb5cb39893672ce05402325a163678a72"
+    },
+    {
+      "path": "app/Products/TM252.dll",
+      "size": 417272,
+      "sha256": "b6d349a5d8f3063e57ed7eb3264b4bd7265495c97a666214d748315b34fc83a0"
+    },
+    {
+      "path": "app/Products/TM259.dll",
+      "size": 253432,
+      "sha256": "564465237ace169d00329869baaf2221cdeed0caeda87aba0ff15aeb4f5ab693"
+    },
+    {
+      "path": "app/Products/TM265.dll",
+      "size": 119800,
+      "sha256": "bf303a695ccdacc42490bd1f947461077eeffd06c00e581e958bf8255e4e2f0e"
+    },
+    {
+      "path": "app/Products/TM265F.dll",
+      "size": 118776,
+      "sha256": "df738538825619bce57fbb03b65e38b08f808b90960de6c027b7d4e680b2a3fe"
+    },
+    {
+      "path": "app/Products/TM265KR.dll",
+      "size": 119800,
+      "sha256": "e50d0fa43037b3726eaa2df72dce1c35bb154e510409cda72f95ce43ee84a82e"
+    },
+    {
+      "path": "app/Products/TM270.dll",
+      "size": 180216,
+      "sha256": "943532c135b85fd0806cc2269425542722dc4c3df152e73d18879ff35511afa6"
+    },
+    {
+      "path": "app/Products/TM270F.dll",
+      "size": 314360,
+      "sha256": "421941c451b04c6a47bae055ea65e14fc42c84945ebfaae49ceae7b9a5016ee9"
+    },
+    {
+      "path": "app/Products/TM270LCD.dll",
+      "size": 288248,
+      "sha256": "ea7f124126f9bc87f2f0bf1bf0d7e16d5d5ef52fb51d457ff872dc84f41989b6"
+    },
+    {
+      "path": "app/Products/TM270V2.dll",
+      "size": 180216,
+      "sha256": "60875f578c1dbdeeb182f17b4143324fadb0a3b957917112e2db0b3986e0ffba"
+    },
+    {
+      "path": "app/Products/TM270V2LCD.dll",
+      "size": 290296,
+      "sha256": "412d71e13e4b1fe87f757854b1809264950aa9e4767ebfc17c24f9e7bac9fca1"
+    },
+    {
+      "path": "app/Products/TM271.dll",
+      "size": 192504,
+      "sha256": "4fe2ae9c626a329332e13f2fbdddabd9c3004fc8ecb1558cf901d4cab52ed044"
+    },
+    {
+      "path": "app/Products/TM271F.dll",
+      "size": 192504,
+      "sha256": "d684762421fdbdf81b920094e07d9bdd409f2258356f725f80d616be902c033b"
+    },
+    {
+      "path": "app/Products/TM275D.dll",
+      "size": 118776,
+      "sha256": "cea608f224aec85f3de813d57084425d51d09e928b9ef6fe02fe8ae671567d68"
+    },
+    {
+      "path": "app/Products/TM275D07G08G.dll",
+      "size": 118264,
+      "sha256": "be40410ac2077289d1ed552160c16175845212f9010f4ba28bf143715a827a5a"
+    },
+    {
+      "path": "app/Products/TM275DKR.dll",
+      "size": 118776,
+      "sha256": "b25b149500def3b79f3d1249ab6b0cc5ed9a4c1f13161e42f08618fba01c7cb3"
+    },
+    {
+      "path": "app/Products/TM275F.dll",
+      "size": 512504,
+      "sha256": "6e4eeea4df973a697891f80ba64c6af407516c3d8e248d823aec4d1986670765"
+    },
+    {
+      "path": "app/Products/TM275FKR.dll",
+      "size": 512504,
+      "sha256": "7216378cbc1c845d7f2e10b2eeed5265184607048cfef41e776f47946f54de0f"
+    },
+    {
+      "path": "app/Products/TM275FV2.dll",
+      "size": 128504,
+      "sha256": "f31865db1b2a06e7d59f6b8869d50b93d4a17e5f5fe750b6290a859140f93181"
+    },
+    {
+      "path": "app/TgDevice/TgDeviceInstaller.exe",
+      "size": 230648,
+      "sha256": "0c4fc5a3a94f1f0ec4f6ba4a37fb7a2291fe6c0a962f95dffb270b8622404ac1"
+    },
+    {
+      "path": "app/TgDevice/x64/TgKeyboard.sys",
+      "size": 34472,
+      "sha256": "9e6144211ac50685088d154c798037c16d2ec328f50b6a5e048ecd2ef1e8632d"
+    },
+    {
+      "path": "app/TgDevice/x64/TgMouse.sys",
+      "size": 32856,
+      "sha256": "08dda811a7f2e5738f01d11a37d30c88a2847df2fe2eeb6d5079a027344f43b5"
+    },
+    {
+      "path": "app/TgDevice/x86/TgKeyboard.sys",
+      "size": 31792,
+      "sha256": "a027ba88089d34769fc9258161c53c955d3f90caed49a36978d20d4307b6e8be"
+    },
+    {
+      "path": "app/TgDevice/x86/TgMouse.sys",
+      "size": 30768,
+      "sha256": "dc656cc62a16e009ea9d7181b547e0cbb954bc98cff6f28f4f3270e840e1be53"
+    },
+    {
+      "path": "commonfonts/din-bold_.otf",
+      "size": 28640,
+      "sha256": "aa121f9bdb891acdfbd269059f7c43ffe2897eadf84edcde869e8988d6986743"
+    },
+    {
+      "path": "commonfonts/SourceHanSansCN-Regular.otf",
+      "size": 8364840,
+      "sha256": "14ec9d09dad83098938370be17170a747d63084022b05710e3d34b4ddb359091"
+    },
+    {
+      "path": "tmp/psvince.dll",
+      "size": 44544,
+      "sha256": "80b75f0d57ed6c715c70955bbb7a1d4f984b529e0239d1da6b5e251a310246e5"
+    }
+  ],
+  "total_files": 120
+}

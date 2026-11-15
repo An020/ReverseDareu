@@ -1,0 +1,22 @@
+# DAREU Gaming Peripherals & Wireless Receivers
+# Grants non-root access to /dev/hidraw nodes via MODE="0666" and systemd uaccess.
+
+# DAREU Primary VID (0x260d)
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="260d", MODE="0666", TAG+="uaccess"
+SUBSYSTEM=="hidraw", ATTRS{id/vendor}=="260d", MODE="0666", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="260d", MODE="0666", TAG+="uaccess"
+
+# SinoWealth Microcontrollers (0x258a)
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="258a", MODE="0666", TAG+="uaccess"
+SUBSYSTEM=="hidraw", ATTRS{id/vendor}=="258a", MODE="0666", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="258a", MODE="0666", TAG+="uaccess"
+
+# Semico Wireless Receivers (0x1a2c)
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1a2c", MODE="0666", TAG+="uaccess"
+SUBSYSTEM=="hidraw", ATTRS{id/vendor}=="1a2c", MODE="0666", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="1a2c", MODE="0666", TAG+="uaccess"
+
+# Sonix Technology (0x0c45)
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0c45", MODE="0666", TAG+="uaccess"
+SUBSYSTEM=="hidraw", ATTRS{id/vendor}=="0c45", MODE="0666", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0c45", MODE="0666", TAG+="uaccess"

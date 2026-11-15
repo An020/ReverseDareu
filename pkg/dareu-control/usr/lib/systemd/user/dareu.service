@@ -1,0 +1,14 @@
+[Unit]
+Description=DAREU Peripheral Management Daemon
+Documentation=file:///usr/share/doc/dareu/DAREU_PROTOCOL_SPEC.md
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/dareud
+Restart=on-failure
+RestartSec=3s
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target

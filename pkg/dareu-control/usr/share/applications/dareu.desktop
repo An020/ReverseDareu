@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=DAREU Control Center
+GenericName=Peripheral Configuration Utility
+Comment=Configure DPI, RGB Chroma lighting, and polling rate for DAREU devices
+Exec=/usr/bin/dareu-control
+Icon=dareu
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;Utility;
+Keywords=mouse;keyboard;dpi;rgb;lighting;gaming;dareu;omarchy;
+StartupNotify=true

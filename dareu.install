@@ -1,0 +1,43 @@
+post_install() {
+    echo ":: Reloading udev rules for DAREU peripherals..."
+    udevadm control --reload-rules || true
+    udevadm trigger --subsystem-match=hidraw --subsystem-match=usb --action=add || true
+    udevadm trigger --subsystem-match=hidraw --subsystem-match=usb --action=change || true
+
+    # Immediately grant rw permissions to currently connected DAREU hidraw nodes
+    for uev in /sys/class/hidraw/hidraw*/device/uevent; do
+        [ -f "$uev" ] || continue
+        if grep -qiE "260D|258A|1A2C|0C45" "$uev"; then
+            node="$(basename "$(dirname "$(dirname "$uev")")")"
+            [ -e "/dev/$node" ] && chmod 0666 "/dev/$node" || true
+        fi
+    done
+
+    echo ":: Setting up autostart..."
+    if [ -n "${SUDO_USER:-}" ]; then
+        uid="$(id -u "$SUDO_USER" 2>/dev/null || true)"
+        if [ -n "$uid" ] && [ -d "/run/user/$uid" ]; then
+            su - "$SUDO_USER" -c "XDG_RUNTIME_DIR=/run/user/$uid systemctl --user daemon-reload && XDG_RUNTIME_DIR=/run/user/$uid systemctl --user restart dareu.service" >/dev/null 2>&1 || true
+        fi
+    elif [ -n "${XDG_RUNTIME_DIR:-}" ] && command -v systemctl >/dev/null 2>&1; then
+        systemctl --user daemon-reload || true
+        systemctl --user restart dareu.service || true
+    fi
+
+    echo ""
+    echo ":: DAREU suite installed with autostart configured!"
+    echo ":: Daemon autostarts on system boot / user login via:"
+    echo "     1. Systemd user target (dareu.service)"
+    echo "     2. XDG Autostart (/etc/xdg/autostart/dareu-autostart.desktop)"
+    echo ""
+}
+
+post_upgrade() {
+    post_install
+}
+
+post_remove() {
+    echo ":: Reloading udev rules..."
+    udevadm control --reload-rules || true
+    udevadm trigger || true
+}

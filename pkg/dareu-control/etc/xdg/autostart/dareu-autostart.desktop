@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=DAREU Daemon Autostart
+Comment=DAREU Gaming Hardware Background Service
+Exec=/usr/bin/dareud
+Terminal=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+StartupNotify=false
